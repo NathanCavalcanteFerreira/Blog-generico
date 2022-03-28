@@ -1,0 +1,38 @@
+.featured-post-container{
+    display: flex;
+    justify-content: space-between;
+    color: #222830;
+    margin-top: 80px;
+}
+
+
+.featured-post-container div:nth-child(2){
+    max-width: 36vw;
+
+}
+
+.featured-post-image{
+    width: 45vw;
+    height: 25vw;
+    border-radius: 6px;
+    object-fit: cover;
+}
+
+
+.featured-post-date{
+    font-size: 0.8rem;
+    margin-left: 0.8rem;
+}
+
+.featured-post-title{
+    margin-top: 20px;
+    margin-left: 0.8rem;
+    color: black;
+    font-weight: bold;
+}
+
+.featured-post-description{
+    margin-top: 20px;
+    margin-left: 0.8rem;
+    color: #222830;
+}

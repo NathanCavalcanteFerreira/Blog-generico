@@ -1,0 +1,36 @@
+.post-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #222830;
+    margin-top: 80px;
+}
+
+
+.post-container div:nth-child(2){
+    max-width: 35vw;
+
+}
+
+.post-image{
+    width: 40vw;
+    height: 17vw;
+    border-radius: 6px;
+    object-fit: cover;
+}
+
+
+.post-date{
+    font-size: 0.8rem;
+}
+
+.post-title{
+    margin-top: 20px;
+    color: black;
+    font-size: 1.4rem;
+}
+
+.post-description{
+    margin-top: 20px;
+    color: #222830;
+}
